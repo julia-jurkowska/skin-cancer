@@ -5,8 +5,7 @@ import time
 from PIL import Image
 import numpy as np
 
-metadata = pd.read_csv("/Users/julia/Downloads/cancer-skin/metadata.csv")
-folder_path = "/Users/julia/Downloads/cancer-skin/"
+metadata = pd.read_csv(metadata_path)
 
 isic_id = list(metadata['isic_id'])
 start_time = time.time()
